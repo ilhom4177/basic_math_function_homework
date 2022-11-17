@@ -8,6 +8,6 @@ def main(a):
     Returns:
         float: the value of pi.
     '''
-    b = (a)
+    b = pi
     return b
-print(main(pi))
+print(main(a = pi))
