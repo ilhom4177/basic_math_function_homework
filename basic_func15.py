@@ -1,4 +1,5 @@
 def main(a, b):
+    
     '''find the modulus of a and b and return it.
     
     Args:
@@ -8,4 +9,6 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    c = a%b
+    return c
+print(main(23,5))
