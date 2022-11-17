@@ -8,4 +8,6 @@ def main(a, b):
     Returns:
         int: the sum.
     '''
-    return
+    d = a + b
+    return d
+print(main(3, 2))
